@@ -1,0 +1,96 @@
+name: paailaa
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.2.0
+  flutter_bloc: ^9.1.1
+  pedometer: ^4.1.1
+  permission_handler: ^12.0.1
+  shared_preferences: ^2.5.3
+  equatable: ^2.0.7
+  fl_chart: ^1.0.0
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo_white.png
+    - assets/images/logo_blue.png
+    - assets/images/success.png
+    - assets/images/congrats.png
+    - assets/images/logsin_image.png
+    - assets/images/homepage_logo.png
+    - assets/images/chicken.png
+    - assets/images/parfait.png
+    - assets/images/avocado.png
+    - assets/images/khalti.png
+    - assets/images/esewa.png
+    - assets/images/google.png
+    - assets/images/sun.gif
+    - assets/icons/google.svg
+    - assets/icons/back.svg
+    - assets/icons/homepage/alarm.svg
+    - assets/icons/homepage/notification.svg
+    - assets/icons/homepage/homepage_logo.svg
+    - assets/icons/homepage/calories.svg
+
+    - assets/icons/analytics/water.svg
+    - assets/icons/analytics/carbs.svg
+    - assets/icons/analytics/fat.svg
+    - assets/icons/analytics/calories.svg
+    - assets/icons/analytics/protein.svg
+    - assets/icons/analytics/sodium.svg
+    - assets/icons/analytics/steps.svg
+
+    - assets/icons/nav_home.svg
+    - assets/icons/nav_add.svg
+    - assets/icons/nav_analytics.svg
+    - assets/icons/nav_profile.svg
+    - assets/icons/nav_plans.svg
+
+    - assets/icons/profile/my_info.svg
+    - assets/icons/profile/premium_meal.svg
+    - assets/icons/profile/reminder.svg
+    - assets/icons/profile/about.svg
+    - assets/icons/profile/tandc.svg
+    - assets/icons/profile/privacy.svg
+    - assets/icons/profile/faq.svg
+    - assets/icons/profile/share.svg
+    - assets/icons/profile/feedback.svg
+    - assets/icons/profile/change_pw.svg
+    - assets/icons/profile/logout.svg
+
+    - assets/icons/profile/health_data.svg
+    - assets/icons/profile/demo_info.svg
+    - assets/icons/profile/body_goal.svg
+
+    - assets/icons/profile/take_photo.svg
+    - assets/icons/profile/upload_file.svg
+    - assets/icons/profile/feedback1.svg
+    - assets/icons/profile/premium.svg
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  # If you want adaptive icon on Android (optional), uncomment and provide foreground/background:
+  # android_adaptive_icon:
+  #   foreground_image: "assets/images/logo_blue.png"
+  #   background_color: "ffffff"
